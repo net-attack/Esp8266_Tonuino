@@ -111,12 +111,15 @@ void loop() {
     Serial.println(chipID);
     switch(chipID){
       case 268280:
+        // Jannik Bremen
         myDFPlayer.play(1);
         break;
       case 291250:
+        // Irmi singt
         myDFPlayer.play(2);
         break;
       case 2096050:
+        //Corinna Geib
         myDFPlayer.play(3);
         /*
       case 287250:
