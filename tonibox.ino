@@ -110,12 +110,15 @@ void loop() {
     //... und anschließend ausgegeben
     Serial.println(chipID);
     switch(chipID){
-      case 564780:
+      case 268280:
         myDFPlayer.play(1);
         break;
-      case 2096050:
+      case 291250:
         myDFPlayer.play(2);
         break;
+      case 2096050:
+        myDFPlayer.play(3);
+        /*
       case 287250:
         myDFPlayer.play(3);
         break;
@@ -161,7 +164,7 @@ void loop() {
       case 417450:
         myDFPlayer.play(17);
         break;
-        
+        */
       default:
         break;
     }
